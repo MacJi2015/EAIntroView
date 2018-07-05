@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E08E1BB372907DE9D4CABF7 /* Pods_EAIntroView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FED11A29CB7947E5907C3EC /* Pods_EAIntroView.framework */; };
+		B802538C20EDBBC900EEF1B9 /* IntroPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = B802538B20EDBBC900EEF1B9 /* IntroPage.xib */; };
 		B8765C1920ECB7E2004315AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8765C1820ECB7E2004315AA /* AppDelegate.m */; };
 		B8765C1C20ECB7E2004315AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8765C1B20ECB7E2004315AA /* ViewController.m */; };
 		B8765C1F20ECB7E2004315AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8765C1D20ECB7E2004315AA /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FED11A29CB7947E5907C3EC /* Pods_EAIntroView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EAIntroView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9819294466D8F190C263A707 /* Pods-EAIntroView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAIntroView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EAIntroView/Pods-EAIntroView.debug.xcconfig"; sourceTree = "<group>"; };
+		B802538B20EDBBC900EEF1B9 /* IntroPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroPage.xib; sourceTree = "<group>"; };
 		B8765C1420ECB7E2004315AA /* EAIntroView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EAIntroView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8765C1720ECB7E2004315AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8765C1820ECB7E2004315AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		B8765C3720ECB7E3004315AA /* EAIntroViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EAIntroViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8765C3B20ECB7E3004315AA /* EAIntroViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAIntroViewUITests.m; sourceTree = "<group>"; };
 		B8765C3D20ECB7E3004315AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8280BA9DF3E1917817F60DA /* Pods-EAIntroView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EAIntroView.release.xcconfig"; path = "Pods/Target Support Files/Pods-EAIntroView/Pods-EAIntroView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E08E1BB372907DE9D4CABF7 /* Pods_EAIntroView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3661C6993E64B44B452E2703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FED11A29CB7947E5907C3EC /* Pods_EAIntroView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8765C0B20ECB7E2004315AA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,8 @@
 				B8765C2F20ECB7E3004315AA /* EAIntroViewTests */,
 				B8765C3A20ECB7E3004315AA /* EAIntroViewUITests */,
 				B8765C1520ECB7E2004315AA /* Products */,
+				F303FD10F98BA56315CD6053 /* Pods */,
+				3661C6993E64B44B452E2703 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +118,7 @@
 		B8765C1620ECB7E2004315AA /* EAIntroView */ = {
 			isa = PBXGroup;
 			children = (
+				B802538B20EDBBC900EEF1B9 /* IntroPage.xib */,
 				B8765C1720ECB7E2004315AA /* AppDelegate.h */,
 				B8765C1820ECB7E2004315AA /* AppDelegate.m */,
 				B8765C1A20ECB7E2004315AA /* ViewController.h */,
@@ -132,6 +150,15 @@
 			path = EAIntroViewUITests;
 			sourceTree = "<group>";
 		};
+		F303FD10F98BA56315CD6053 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9819294466D8F190C263A707 /* Pods-EAIntroView.debug.xcconfig */,
+				D8280BA9DF3E1917817F60DA /* Pods-EAIntroView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8765C4020ECB7E3004315AA /* Build configuration list for PBXNativeTarget "EAIntroView" */;
 			buildPhases = (
+				3C2090AFE2DED0AC7B6FF7C2 /* [CP] Check Pods Manifest.lock */,
 				B8765C1020ECB7E2004315AA /* Sources */,
 				B8765C1120ECB7E2004315AA /* Frameworks */,
 				B8765C1220ECB7E2004315AA /* Resources */,
+				BA1D698AFB3648B3A1BBE3CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,6 +267,7 @@
 				B8765C2420ECB7E3004315AA /* LaunchScreen.storyboard in Resources */,
 				B8765C2120ECB7E3004315AA /* Assets.xcassets in Resources */,
 				B8765C1F20ECB7E2004315AA /* Main.storyboard in Resources */,
+				B802538C20EDBBC900EEF1B9 /* IntroPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +286,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C2090AFE2DED0AC7B6FF7C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EAIntroView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1D698AFB3648B3A1BBE3CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EAIntroView/Pods-EAIntroView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EAIntroView/EAIntroView.framework",
+				"${BUILT_PRODUCTS_DIR}/EARestrictedScrollView/EARestrictedScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SMPageControl/SMPageControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EAIntroView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EARestrictedScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMPageControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EAIntroView/Pods-EAIntroView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8765C1020ECB7E2004315AA /* Sources */ = {
@@ -431,10 +504,13 @@
 		};
 		B8765C4120ECB7E3004315AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9819294466D8F190C263A707 /* Pods-EAIntroView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FB83Z962R3;
 				INFOPLIST_FILE = EAIntroView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +523,13 @@
 		};
 		B8765C4220ECB7E3004315AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8280BA9DF3E1917817F60DA /* Pods-EAIntroView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FB83Z962R3;
 				INFOPLIST_FILE = EAIntroView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
